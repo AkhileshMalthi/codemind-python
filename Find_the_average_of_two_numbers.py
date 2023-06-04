@@ -1,0 +1,1 @@
+print("%.4f" % (sum(list(map(int,input().split())))/2))
