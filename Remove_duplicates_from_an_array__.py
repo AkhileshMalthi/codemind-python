@@ -1,2 +1,2 @@
 input()
-print(*set(list(map(int,input().split()))))
+print(*list(set(map(int,input().split()))))
