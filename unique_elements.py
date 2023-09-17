@@ -1,7 +1,7 @@
 n = int(input())
-l = list(map(int,input().split()))
+nums = list(map(int,input().split()))
 unq = []
-for i in l:
+for i in nums:
     if i not in unq:
         unq.append(i)
 print(*unq)
